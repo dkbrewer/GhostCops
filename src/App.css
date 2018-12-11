@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Acme');
+
+body {
+  background-color: #272B2E;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #4b235c;
+  padding: 1em;
+  margin-top: -52px;
+  margin-bottom: 25px;
+  /*border-radius: 25px;*/
+}
+
+nav li {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.4em;
+  list-style-type: none;
+  display: inline-block;
+  line-height: 1em;
+  margin-right: 10px;
+}
+nav a {
+  color: #eff2f4;
+  line-height: 1em;
+  text-decoration: none; 
+  padding: .5em .5em;
+}
+
+nav a:hover{
+  background-color: #a672bc;
+}
+
+nav ul { 
+  margin: 0; 
+}
+
+#banner {
+  width: 100%;
+}
+
+#logo {
+  position: relative;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -65px;
+  border-radius: 20px;
+}
+
+#pages {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#background {
+  background-color: #4b235c;
+}
+
+#midsection {
+  margin-left: 260px;
+}
+
+.button {
+  background-color: #a4cd6f;
+  color: #272B2E;
+  padding: .5em .5em;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Alegreya Sans', sans-serif;
+  border-radius: 8px;
+  border: 1px solid #a4cd6f;
+}
+
+.button:active {
+  background-color: #698644;
+}
+
+
+#next {
+  margin-left: 63%;
+}
+
+#previous {
+  margin-left: 10%;
+}
+
+.character {
+  width: 200px;
+}
+
+h1, h2 {
+  color: #87e1fc;
+  font-family: 'Acme', sans-serif;
+  line-height: 1em;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: #a4cd6f;
+}
+
+p {
+  color: #eff2f4;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+}
+
+#self {
+  width: 300px;
+  float: right;
+  padding-left: 10px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.social {
+  width: 50px;
+  margin-left: 20px;
+  float: right;
+}
+
+.thumbnail {
+  width: 150px;
+  margin-right: 15px;
+}
+
+input[type=text], [type=email], textarea {
+  margin-right: 50%;
+  width: 50%; 
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+textarea {
+  height: 150px;
+}
+
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6, #sec7 {
+  display:  flex;
+  flex-flow:  row-wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rightcol {
+  max-width: 80%;
+  margin-left: 20px;
+}
